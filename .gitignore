@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.pyc
+Game_Planner/anything/llm_cache.json

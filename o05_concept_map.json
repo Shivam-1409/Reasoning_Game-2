@@ -1,0 +1,3651 @@
+{
+  "document_name": "2_What_Is_Money",
+  "concept_map": {
+    "nodes": [
+      {
+        "id": "c-9b3f8379",
+        "label": "Inflation",
+        "depth": 1,
+        "source_document": "2_What_Is_Money"
+      },
+      {
+        "id": "c-b7224f37",
+        "label": "Balanced Inflation",
+        "depth": 1,
+        "source_document": "2_What_Is_Money"
+      },
+      {
+        "id": "c-56629b9c",
+        "label": "Investment as a Defense against Inflation",
+        "depth": 1,
+        "source_document": "2_What_Is_Money"
+      }
+    ],
+    "edges": [
+      {
+        "from": "c-9b3f8379",
+        "to": "c-b7224f37",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding inflation is foundational to grasping balanced inflation, as balanced inflation refers to a specific type of economic condition related to inflation.",
+        "direction_note": "Both concepts are part of the broader domain of macroeconomics and monetary policy."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-56629b9c",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Inflation and Investment as a Defense Against Inflation are related concepts because understanding inflation helps individuals comprehend the importance of investing to protect their purchasing power, while investment strategies can also be used to mitigate or manage inflation effects.",
+        "direction_note": "Both concepts exist within the domain of finance and economics."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-56629b9c",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Understanding Balanced Inflation is helpful in grasping how investment strategies can be employed to defend against inflation, as both concepts are related within the broader economic framework of managing financial resources and mitigating inflation's negative effects.",
+        "direction_note": "Balanced Inflation requires understanding Investment as a Defense Against Inflation"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-a743a900",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and medium of exchange both operate within the broader domain of monetary systems, where understanding inflation provides insight into how prices change over time, which is crucial for comprehending the concept of a medium of exchange in various economic contexts.",
+        "direction_note": "Understanding inflation (Concept A) does not necessarily require understanding medium of exchange (Concept B), but knowledge of inflation can help explain the stability and value of mediums used as a medium of exchange."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-0be736de",
+        "type": "builds_on",
+        "strength": 0.4,
+        "reason": "Understanding inflation provides foundational knowledge that builds on concepts of credit and crediting, as both involve economic principles and financial transactions.",
+        "direction_note": "Concept A (Inflation) leads to Concept B (Credit/Crediting)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-62e1aede",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Both concepts relate to economic phenomena and can be understood within the broader context of macroeconomics, though they describe different aspects of inflation (general increase in prices vs. change in purchasing power). Understanding one does not directly require understanding the other but both are integral components of an economy's functioning.",
+        "direction_note": "Neither concept leads to the other; they are interconnected but stand as separate concepts within the same domain."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-83adfe87",
+        "type": "contrasts",
+        "strength": 0.2,
+        "reason": "While both inflation and liquidity involve aspects of money, they operate in different contexts: inflation affects purchasing power over time, whereas liquidity deals with the ease of converting assets into cash, which is not directly related to price changes but can impact investment strategies.",
+        "direction_note": "Neither concept requires understanding the other for basic comprehension."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-fecb026e",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and central bank reserve are both related to monetary policy, as understanding inflation helps in grasping how central banks manage reserves to control money supply and its effects on the economy.",
+        "direction_note": "Understanding Inflation leads to an enhanced understanding of Central Bank Reserve"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-2b4821d6",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding inflation is crucial before delving into government spending beyond revenue, as inflation affects economic policies and decisions related to government spending.",
+        "direction_note": "Concept A (Inflation) leads to Concept B (Government Spending Exceeds Revenue)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-6440226d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding inflation provides foundational knowledge that complements and enriches understanding of price elasticity of demand, as both concepts operate within the domain of economics and market dynamics.",
+        "direction_note": "Understanding inflation is beneficial before delving into the concept of price elasticity of demand."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-83821e8e",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Understanding inflation is crucial for comprehending investment in inflation-beating assets, as both concepts deal with economic principles and financial strategies aimed at preserving or increasing purchasing power over time.",
+        "direction_note": "Concept A (Inflation) leads to Concept B (Investment in Inflation-Beating Assets)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-2dd9be0f",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Both inflation and the concept of a medium of exchange are fundamental concepts in economics, although they operate at different levels. Understanding inflation is crucial for comprehending how money values change over time, which impacts the role of money as a medium of exchange in economic transactions.",
+        "direction_note": "Understanding inflation precedes understanding the medium of exchange."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-83813be0",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Legal Tender both fall under the broader domain of monetary economics, where legal tender concepts often influence inflation rates due to government policies and currency stability.",
+        "direction_note": "Understanding Legal Tender is not strictly prerequisite for understanding Inflation, but knowledge of one can provide context for understanding the other."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-e08b7928",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding inflation is crucial before comprehending credit accounts, as inflation primarily affects monetary values and financial transactions, which are fundamental to credit account management.",
+        "direction_note": "Concept A (Inflation) precedes Concept B (Credit Account)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-44e84f48",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Inflation is fundamental to understanding economic theory and policy, making it part of a broader domain that includes Definition B (which lacks a specific definition). Understanding inflation provides foundational knowledge necessary for comprehending various aspects related to economics, such as Definition B's potential lack of specific context.",
+        "direction_note": "Definition A leads to Definition B"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-77926e9d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and money creation process, particularly focusing on physical notes, are related concepts within macroeconomics as both influence currency value and economic stability.",
+        "direction_note": "Understanding inflation can provide insight into the mechanics of the money creation process, especially in terms of its effects on the supply and demand for currency."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-766122bb",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Inflation and money creation process - digital money both fall under economic and monetary concepts, and understanding inflation can provide foundational knowledge that complements understanding of how digital money operates within the broader economy.",
+        "direction_note": "None of these concepts inherently lead to one another; they are interconnected but not in a directional dependency."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-6c5d190e",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation is closely related to banking systems because banks play a crucial role in money circulation and can affect inflation rates through their lending practices, interest rates, and deposit policies. Understanding how banks operate as pipelines for money circulation provides context for analyzing the economic implications of inflation.",
+        "direction_note": "Understanding inflation requires understanding the functioning of banks as pipelines for money circulation."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-07dc1a65",
+        "type": "builds_on",
+        "strength": 0.7,
+        "reason": "Understanding inflation provides foundational knowledge that helps in comprehending the impact of increased money supply on inflation, as both concepts are intricately linked within economic theory.",
+        "direction_note": "Concept A (Inflation) builds the groundwork for understanding Concept B (Impact of Increased Money Supply on Inflation)."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-57ab2fc1",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding inflation can provide context for evaluating different saving and investment strategies, as it affects the purchasing power of savings over time.",
+        "direction_note": "Neither concept directly leads to the other; however, they are related in the financial domain."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-54a91a02",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Both inflation and the medium of exchange are fundamental concepts within economics, specifically in monetary systems. Understanding the concept of a medium of exchange helps one grasp how money functions as a means to facilitate transactions, while understanding inflation provides insight into the value of that medium over time.",
+        "direction_note": "Understanding both concepts is beneficial for comprehending economic systems and financial stability."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-a7ef65e7",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Government Account at Central Bank both fall under the broader domain of monetary economics, which studies how money is used in an economy. Understanding inflation provides context for understanding central bank operations and policies.",
+        "direction_note": "Understanding Inflation leads to a better understanding of Government Account at Central Bank."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-c94e127a",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding inflation is necessary to comprehend credit or crediting, as both concepts involve monetary systems and their dynamics. Inflation affects the value of money over time, which can lead to changes in how credits are calculated and managed.",
+        "direction_note": "Concept A (Inflation) leads to Concept B (Crediting)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-97566e50",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While not directly related, both inflation and banks acting as pipelines can be seen in the broader context of economic systems where they interact in various ways.",
+        "direction_note": "<no clear directional relationship provided>"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-eef83742",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Inflation Existence are related in that understanding inflation requires considering its existence as a fundamental economic concept, but the term 'Inflation Existence' is not defined which implies it may be a more specific or limited context of inflation.",
+        "direction_note": "Understanding Inflation leads to an understanding of Inflation Existence."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-e9fd5419",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding inflation is foundational to comprehending its economic impacts on individuals, as individuals must first grasp what inflation means before evaluating its effects.",
+        "direction_note": "Concept A (Inflation) leads to Concept B (Economic Impact of Inflation on Individuals)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-8e6b8f82",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Medium of Exchange are related concepts as both fall under the broader domain of economics, specifically monetary systems and transactions. Understanding inflation helps in comprehending how money's value changes over time, which is relevant to understanding its role as a medium of exchange.",
+        "direction_note": "Neither concept leads to the other; they coexist within the economic framework but have different focuses."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-fceb1ad9",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Legal Tender both fall under the broader domain of economic concepts, specifically monetary economics. Understanding inflation provides context to legal tender as a form of currency used in transactions.",
+        "direction_note": "Neither concept leads to the other; they are related through their shared focus on money's value."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-95d44fe0",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding Inflation's definition A is crucial before grasping Definition B, as it provides foundational knowledge that aids in comprehending more complex aspects of inflation.",
+        "direction_note": "Understanding Inflation (Definition A) precedes understanding Inflation (Definition B)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-20abf3a3",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While not directly related, both inflation and liquidity can be found within the broader framework of monetary economics. Understanding inflation provides insights into how money supply affects economic variables, which is crucial for understanding concepts like liquidity in different financial instruments.",
+        "direction_note": "Understanding inflation does not necessarily require prior knowledge of liquidity, but having a grasp on inflation makes one more equipped to understand various aspects of financial markets and assets."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-16e278ea",
+        "type": "prerequisite",
+        "strength": 0.2,
+        "reason": "Understanding inflation is essential before comprehending banking pipelines, as inflation affects how banks manage interest rates and credit policies in their pipeline activities.",
+        "direction_note": "A must be understood before B"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-ba2adec4",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Inflation and price rise share a common domain in economic principles, with inflation being a broader concept that encompasses or leads to persistent increases in prices over time.",
+        "direction_note": "Understanding Inflation helps in comprehending Price Rise as it is a direct result of sustained inflation."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-8cb9dcc6",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and money loss share common principles in monetary economics, where both concepts involve changes in purchasing power over time. Understanding inflation provides a foundation for understanding how monetary value can depreciate or lose purchasing power.",
+        "direction_note": "Understanding Inflation leads to the concept of Money Loss"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-1f613499",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While both concepts refer to inflation, they address different aspects of it. Understanding Inflation (Definition A) provides a comprehensive view by defining its effects on purchasing power and prices over time. Definition B is incomplete but could be considered as referring to the same general concept without delving into specific details.",
+        "direction_note": "Understanding either definition helps in grasping the broader concept of inflation."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-09fa379d",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding inflation is crucial before grasping how a product does not get expensive, as inflation directly affects pricing and purchasing power.",
+        "direction_note": "Concept A (Inflation) must be understood before Concept B (Product Not Getting Expensive)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-90273631",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Real Value Loss both fall under the broader economic domain, specifically concerning changes in currency values over time. Understanding inflation provides context to appreciate how real value loss affects individuals' purchasing power.",
+        "direction_note": "Both concepts are related within the economic framework but do not necessarily require understanding one before understanding the other."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-ae900aa4",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "While 'Saving Decay' is not explicitly defined, both concepts relate to financial management and economic principles. Understanding inflation helps in understanding how changes in purchasing power affect saving strategies.",
+        "direction_note": "Understanding either concept does not necessarily require a prior understanding of the other."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-6c015a19",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Inflation and Financial Illusions do not have a direct relationship, but both fall under the broader domain of economic principles and practices. Understanding inflation provides foundational knowledge that can indirectly inform understanding of financial illusions, as they both relate to how money is perceived and valued over time in an economy.",
+        "direction_note": "Neither concept leads to the other directly."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-73a4356d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While inflation and portfolio management limitation do not have a direct relationship in terms of one being prerequisite or complementary to the other, they both belong to the broader domain of economic principles and can be seen as related concepts that economists study.",
+        "direction_note": "Neither concept leads to the other. They are both topics within economics but do not have a specific dependency on each other."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-5cdcfd5a",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Financial Education Gap are related as both deal with financial aspects but operate on different scales and scopes. Understanding inflation can provide context to financial education gaps, such as the importance of learning about money management and economic principles.",
+        "direction_note": "Neither concept directly leads to or is led by the other."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-4b1b5f61",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While Industry Incentives does not directly relate to Inflation in a direct manner, they both operate within the broader framework of economic policy and its impacts on industries and consumers. Understanding how industry incentives work can provide context for analyzing their impact on inflation rates.",
+        "direction_note": "No particular direction noted as both concepts are related through an economic framework but do not have a clear prerequisite or build-on relationship."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-c090f376",
+        "type": "contrasts",
+        "strength": 0.2,
+        "reason": "While both 'Inflation' and 'Retirement Myth' deal with financial concepts, they address different aspects of finance and economic behavior. Understanding one does not inherently require understanding the other, but they can intersect in certain contexts where inflation affects retirement planning strategies or perceptions.",
+        "direction_note": "No clear direction noted; they are independent in their own domains."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-be2973a8",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and money devaluation are related concepts as both deal with the value of money over time, although they approach this from slightly different angles. Understanding inflation provides a foundational understanding that can help explain money devaluation.",
+        "direction_note": "Understanding inflation leads to an understanding of money devaluation."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-971c3f58",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Both concepts deal with monetary and economic phenomena, specifically inflation, but they focus on different aspects of it (Understanding A does not directly lead to understanding B in a specific sequence). Understanding the definition of inflation helps one grasp its general concept and implications, which is also relevant to recognizing how inflation affects various economic indicators or policies.",
+        "direction_note": "None"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-598b8411",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Core Idea do not have a direct relationship as defined in their initial definitions, but they can be considered related in the context of economic theory where understanding one can provide insights into the broader economic framework that includes core concepts.",
+        "direction_note": "<none specified, no directional dependency>"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-a3e27a0c",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and saving effectiveness are both part of economic frameworks that analyze monetary value over time. Understanding inflation is crucial to comprehend how purchasing power changes, which in turn affects the effectiveness of savings strategies.",
+        "direction_note": "Understanding Inflation leads to a better understanding of Saving Effectiveness."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-8fd0164c",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and Financial Illusion are both related to economic concepts, but they operate in different contexts. Understanding inflation helps in grasping financial markets' volatility and instability, which can lead to the perception of financial illusory situations.",
+        "direction_note": "None"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-f7b566fa",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Understanding inflation is related to early career financial management as both concepts touch upon economic principles and money management strategies, albeit from different perspectives.",
+        "direction_note": "Neither concept requires understanding the other but they are connected through shared domain of economics."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-1ce51cd1",
+        "type": "prerequisite",
+        "strength": 0.6,
+        "reason": "Understanding inflation is essential to comprehend investment compounding, as inflation can affect the real return on investments over time. For example, if an investor earns a nominal interest rate but faces inflation that exceeds this rate, their purchasing power decreases, reducing the actual value of the investment.",
+        "direction_note": "Understanding inflation (A) must be understood before understanding investment compounding (B)"
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-25107a9f",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Inflation and financial advice incentives operate in overlapping domains of economic policy and consumer behavior, though they address different aspects. Understanding inflation helps in assessing the effectiveness of various financial advice incentives as it impacts savings, investments, and overall financial planning strategies.",
+        "direction_note": "Both concepts can be studied to provide a more comprehensive understanding of economic dynamics."
+      },
+      {
+        "from": "c-9b3f8379",
+        "to": "c-a0244392",
+        "type": "contrasts",
+        "strength": 0.5,
+        "reason": "While inflation affects all economic activities and decisions, including retirement planning, it often contradicts common perceptions of what a successful or comfortable retirement entails. Understanding inflation is crucial for accurately predicting future expenses in retirement, but people frequently underestimate its impact due to various myths and misconceptions about retirement savings.",
+        "direction_note": "Understanding inflation (Concept A) helps identify where the Retirement Myth (Concept B) goes wrong."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-a743a900",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Medium of Exchange are related concepts but operate within different economic domains. Balanced Inflation is a concept in macroeconomics focusing on price stability, while the Medium of Exchange is more foundational to economics as it refers to the basic function of money itself. Understanding one does not necessarily require or provide foundation for understanding the other, though both contribute to the overall functioning and health of an economy.",
+        "direction_note": "None"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-0be736de",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced inflation and credit/crediting do not directly require each other to be understood, but both are part of broader economic frameworks that involve monetary policies, financial systems, and overall economic health. Understanding balanced inflation can provide insight into how credit operations affect price stability and vice versa.",
+        "direction_note": "Neither concept leads to the other; they are interconnected within broader economic discussions."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-62e1aede",
+        "type": "related",
+        "strength": 0.7,
+        "reason": "Balanced Inflation is related to Inflation as it represents a specific condition within the broader concept of inflation, where prices rise at a steady rate. Understanding Inflation provides foundational knowledge that helps in comprehending Balanced Inflation.",
+        "direction_note": "Understanding Inflation leads to understanding Balanced Inflation."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-83adfe87",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Liquidity are both relevant to monetary policy and economic stability, but they operate in different domains. Understanding Balanced Inflation requires familiarity with monetary policies and economic principles, while understanding Liquidity involves the availability of funds for transactions. Despite their distinct domains, there can be synergies where proper management of liquidity supports achieving balanced inflation.",
+        "direction_note": "Neither concept leads to the other; both are important in their respective areas."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-fecb026e",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Balanced Inflation and Central Bank Reserve are both within the domain of monetary policy, which is a crucial framework in understanding economic conditions and stability. Understanding one can provide insight into the mechanisms and tools used by central banks to achieve balanced inflation.",
+        "direction_note": "Both concepts exist in the broader context of monetary policy"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-2b4821d6",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced inflation and government spending exceeding revenue are both economic concepts that fall under macroeconomic frameworks, specifically those dealing with fiscal policy and monetary policy. Understanding one can provide insights into the overall economic dynamics as they interact within the broader economy.",
+        "direction_note": "Neither concept requires understanding the other to be comprehended; however, knowledge of each can enhance the understanding of the interplay between government actions and inflation."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-6440226d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced inflation and price elasticity of demand both relate to economic conditions, specifically how prices change in response to changes in demand or supply. Understanding balanced inflation can provide context for analyzing the responsiveness of demand (price elasticity), as both are indicators of a healthy economy.",
+        "direction_note": "Understanding Balanced Inflation does not require understanding Price Elasticity of Demand first, but it complements and provides insight into the broader economic environment relevant to demand sensitivity."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-83821e8e",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Balanced inflation and investment in inflation-beating assets are related concepts within the domain of economic management, both aiming to stabilize economic conditions but from different perspectives. Understanding one can provide insights into the broader context needed for effective financial planning and asset allocation strategies.",
+        "direction_note": "Neither concept must be understood before the other, but they complement each other in the portfolio management framework."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-2dd9be0f",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Medium of Exchange do not have a direct functional relationship, but they both fall under broader economic frameworks. Balanced Inflation is a specific condition within macroeconomic stability, while the concept of Medium of Exchange is more foundational to how money functions in an economy.",
+        "direction_note": "Neither leads to nor relies on the other for basic understanding."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-83813be0",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding balanced inflation requires an understanding of legal tender, as legal tender is often used in discussions about monetary systems and prices, which are central to the concept of balanced inflation.",
+        "direction_note": "Understanding legal tender precedes or is necessary for understanding balanced inflation."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-e08b7928",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Credit Account are related in an economic context, where understanding credit management is crucial for maintaining a balanced inflation rate through stable financial conditions.",
+        "direction_note": "Understanding Balanced Inflation helps one comprehend the importance of credit accounts in managing economic stability."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-44e84f48",
+        "type": "related",
+        "strength": 0.7,
+        "reason": "Balanced Inflation and Inflation both fall under the broader domain of economic indicators, where understanding one can provide context for the other by explaining different levels or conditions of price changes in an economy.",
+        "direction_note": "Understanding Balanced Inflation does not necessarily require understanding Inflation beforehand; however, knowing about Inflation helps to grasp what a balanced state looks like."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-77926e9d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced inflation and money creation process - physical notes both fall under monetary policy, where understanding one can provide context or examples of how monetary policies are implemented through actual economic processes.",
+        "direction_note": "Neither concept leads to the other; they are related in the domain of monetary economics."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-766122bb",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding balanced inflation is crucial before delving into the complex and evolving money creation process, especially in the digital realm where monetary systems are increasingly digitized and automated.",
+        "direction_note": "Concept A (Balanced Inflation) must be understood before Concept B (Money Creation Process - Digital Money)"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-6c5d190e",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Banks as Pipelines for Money Circulation share a common domain in economic management, with both concepts influencing how money circulates within an economy.",
+        "direction_note": "Understanding Balanced Inflation is helpful for understanding the mechanisms of banks' role in managing money circulation."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-07dc1a65",
+        "type": "related",
+        "strength": 0.7,
+        "reason": "Understanding balanced inflation is essential for comprehending how increased money supply impacts inflation, as both concepts involve economic conditions and monetary policies.",
+        "direction_note": "Both concepts are related to the domain of macroeconomics and monetary policy."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-57ab2fc1",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Balanced inflation and saving cash vs. investing long-term can be related in an economic context where maintaining a balanced approach to both financial strategies is crucial for overall stability and growth.",
+        "direction_note": "Understanding one does not necessarily require understanding the other, but they are interconnected through broader economic considerations."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-54a91a02",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Medium of Exchange both fall under the broader domain of economics, specifically monetary systems. Understanding how prices stabilize (Balanced Inflation) can provide insights into what functions a medium of exchange must perform effectively in an economy.",
+        "direction_note": "Neither concept leads to the other; they are interconnected but do not have a clear directional dependency."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-a7ef65e7",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Government Account at Central Bank are related concepts within the domain of monetary policy and economic management. Understanding Balanced Inflation requires knowledge of how government accounts interact with central banks, as they both contribute to macroeconomic stability.",
+        "direction_note": "Understanding Balanced Inflation can lead to a better understanding of Government Account at Central Bank."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-c94e127a",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Credit/Crediting are not directly related in their definitions or fundamental concepts, but they can be seen as part of the broader economic framework where credit plays a crucial role in managing inflation levels through monetary policy and asset pricing mechanisms.",
+        "direction_note": "Neither concept leads to the other; rather, both operate within the economic domain."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-97566e50",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Balanced Inflation and Banks Acting as Pipelines can be related within an economic framework, where understanding balanced inflation provides context on how banks operate in such a stable economic environment.",
+        "direction_note": "Neither concept must lead to the other, but both are part of the same domain of macroeconomic stability."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-eef83742",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Balanced Inflation and Inflation Existence are both related to economic concepts, with Balanced Inflation focusing on a specific type of inflation while Inflation Existence represents the general presence or existence of inflation without specifying its nature.",
+        "direction_note": "Understanding Inflation Existence can help one understand that there is always some level of inflation, which then leads to understanding Balanced Inflation as a management goal within this context."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-e9fd5419",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Balanced Inflation and Economic Impact of Inflation on Individuals both fall under the broader domain of economic theory, specifically focusing on how inflation affects different aspects of the economy. Understanding Balanced Inflation is crucial for comprehending its impact on individuals, as it forms the basis for analyzing these impacts.",
+        "direction_note": "Understanding Balanced Inflation requires understanding Economic Impact of Inflation on Individuals"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-8e6b8f82",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Medium of Exchange are both fundamental concepts in economics, though they operate at different levels of abstraction. Balanced Inflation is a condition that affects overall economic health and stability, while the Medium of Exchange describes a basic function of money in transactions. Although not directly related in terms of cause-and-effect or hierarchy, understanding Balanced Inflation provides context for how monetary policies impact the economy, which can influence the role of money as a medium of exchange.",
+        "direction_note": "Neither concept requires understanding the other, but they are both important aspects of economic theory and practice."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-fceb1ad9",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Legal Tender do not have a direct or immediate relationship in terms of understanding one before the other, but both fall under the broader domain of macroeconomic policies and financial systems.",
+        "direction_note": "Neither concept must be understood before the other; however, they share common principles within their respective domains."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-95d44fe0",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding inflation is necessary to grasp the concept of balanced inflation, as balanced inflation refers to a specific type or level of inflation that maintains economic health.",
+        "direction_note": "Concept A (Balanced Inflation) builds on Concept B (Inflation)"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-20abf3a3",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Liquidity are both concepts related to economic stability and management, but they operate at different levels of financial infrastructure and policy implementation. Understanding liquidity is crucial for effective monetary policy and managing the supply of money in an economy, which can influence whether an economy experiences balanced inflation or not.",
+        "direction_note": "Neither concept leads to the other; rather, they are both important considerations in macroeconomic management."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-16e278ea",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Banking Pipeline do not have a direct, foundational relationship but share a common domain within macroeconomic policies and financial stability. Understanding one can provide insights into broader economic management strategies that may be applicable to the other.",
+        "direction_note": "Neither concept leads to the other; they are related in terms of their shared context within economics."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-ba2adec4",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Balanced Inflation and Price Rise are both concepts related to economic conditions, with Balanced Inflation focusing on a specific type of price rise (steady and moderate) that supports healthy growth, while Price Rise is more general in its definition without specifying the context.",
+        "direction_note": "Understanding Balanced Inflation helps in grasping how stable price rises can contribute to economic stability, which is relevant for understanding broader concepts like Price Rise."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-8cb9dcc6",
+        "type": "contrasts",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Money Loss do not directly oppose each other but they present contrasting views on economic stability and monetary health, with Balanced Inflation focusing on moderate price increases for healthy growth, while Money Loss implies a loss in the value of money, which is contrary to the stable value implied by Balanced Inflation.",
+        "direction_note": "Balanced Inflation does not necessarily lead to Money Loss, but understanding both concepts helps in comprehending various aspects of monetary and economic health."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-1f613499",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding inflation is necessary to comprehend balanced inflation, as balanced inflation is a specific type of inflation that maintains a healthy economic growth without extreme fluctuations.",
+        "direction_note": "To understand balanced inflation, one must first grasp the concept and implications of inflation."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-09fa379d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and 'Product Not Getting Expensive' are related concepts as both pertain to economic stability and price control, albeit in different scales. Understanding Balanced Inflation provides a broader context for the management of prices across an economy, while 'Product Not Getting Expensive' deals with the specific issue of cost increases on individual products.",
+        "direction_note": "Understanding Balanced Inflation can help in better grasping how to manage the economic condition that might lead to 'Product Not Getting Expensive'. However, understanding 'Product Not Getting Expensive' does not necessarily require a prior understanding of Balanced Inflation."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-90273631",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Real Value Loss are both related to economic health and stability, but they focus on different aspects of economic conditions. Understanding Balanced Inflation can provide insight into the overall health of an economy, which may indirectly affect how one perceives Real Value Loss.",
+        "direction_note": "Neither concept directly leads to the other"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-ae900aa4",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Balanced Inflation and Saving Decay are related in that both concepts pertain to economic conditions and stability, although they address different aspects of an economy. Understanding Balanced Inflation can provide insights into the need for stable financial environments that might support or complement strategies for saving decay.",
+        "direction_note": "No specific direction noted as their relationship is more conceptual than one leading to another."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-6c015a19",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Financial Illusions do not directly overlap in their definitions, but they both relate to broader economic concepts such as inflation and financial management. Understanding Balanced Inflation can provide a foundational understanding of how financial systems should ideally function, which might indirectly inform the critical evaluation of potential Financial Illusions.",
+        "direction_note": "Neither concept leads to the other; rather, both are part of an overall framework for analyzing economic stability."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-73a4356d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Portfolio Management Limitation are related in a financial context where both concepts touch on managing economic conditions to ensure stability and growth, though they operate at different scales and focus on different aspects of the economy.",
+        "direction_note": "Neither concept leads to the other; rather, they intersect within the broader framework of financial management."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-5cdcfd5a",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Financial Education Gap are related in that both involve understanding economic principles to manage financial stability, though they operate at different levels of the economy. Understanding Balanced Inflation requires knowledge of financial education and vice versa, as both concepts contribute to a comprehensive grasp of economic health.",
+        "direction_note": "Neither concept leads to the other directly; they complement each other in terms of overall economic understanding."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-4b1b5f61",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding balanced inflation provides context for how industry incentives can be structured in an economy to support healthy growth and prevent volatility, thus they share a common domain related to economic health.",
+        "direction_note": "Neither concept leads to the other; both are part of broader economic frameworks."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-c090f376",
+        "type": "contrasts",
+        "strength": 0.2,
+        "reason": "Balanced Inflation and Retirement Myth do not directly contradict each other, but understanding Balanced Inflation is necessary to appreciate why a Myth about retirement might exist in certain economic contexts.",
+        "direction_note": "Neither concept leads to the other; both are concepts that could be studied independently within their respective domains."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-be2973a8",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Balanced inflation and money devaluation share a common domain in monetary economics, as both concepts relate to how currency values change over time and their impact on economic stability.",
+        "direction_note": "Neither concept requires understanding the other; however, they are connected through shared principles of monetary policy and economic stability."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-971c3f58",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding balanced inflation requires first grasping the concept of inflation to comprehend its characteristics and implications.",
+        "direction_note": "Concept B (Inflation) must be understood before Concept A (Balanced Inflation)"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-598b8411",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Balanced Inflation and Core Idea are related in the economic domain but do not necessarily require each other's understanding to comprehend their individual implications within economics.",
+        "direction_note": "Understanding one does not inherently lead to a deeper understanding of the other, as they represent different aspects or ideas."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-a3e27a0c",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Saving Effectiveness are related concepts within economic frameworks, as both aim to ensure a stable economy that can sustain healthy growth without volatility or deflation. Understanding Balanced Inflation helps in grasping the importance of maintaining an effective saving strategy to mitigate risks associated with inflation.",
+        "direction_note": "<no directional relationship>"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-8fd0164c",
+        "type": "contrasts",
+        "strength": 0.6,
+        "reason": "Balanced Inflation is characterized by steady and moderate price increases, which minimizes economic volatility and supports sustainable growth. Financial Illusion, if defined as an misleading or deceptive financial practice that can distort perceptions of economic reality, directly contradicts the concept of Balanced Inflation. Understanding one does not require understanding the other but both highlight different aspects of how people perceive and interact with economic indicators.",
+        "direction_note": "None"
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-f7b566fa",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Balanced Inflation and Early Career Financial Management both fall under the broader domain of economic management, albeit in different stages of life (macro vs. micro). Understanding Balanced Inflation can provide a foundation for managing personal financial health during early career years.",
+        "direction_note": "Understanding Balanced Inflation does not necessarily require understanding Early Career Financial Management first; however, knowledge of how an economy functions at large scales can inform personal financial strategies."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-1ce51cd1",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Both Balanced Inflation and Investment Compounding contribute to a healthy economic environment, but they operate in different contexts. Understanding how balanced inflation affects an economy can provide insights into managing financial investments over time through the concept of compounding.",
+        "direction_note": "Neither concept requires understanding the other for basic comprehension; however, knowledge about one can be applied when considering the other."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-25107a9f",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Balanced Inflation and Financial Advice Incentives do not directly overlap in terms of specific content or application, but both fall under the broader domain of economic management and stability. Understanding Balanced Inflation can provide a foundation for comprehending how financial advice should be formulated to support an economy's health, while understanding Financial Advice Incentives can offer insights into potential methods used by governments or organizations to achieve balanced inflation.",
+        "direction_note": "Understanding Balanced Inflation does not directly require understanding Financial Advice Incentives, but conversely, understanding Financial Advice Incentives might provide context for how policies aimed at achieving balanced inflation are implemented."
+      },
+      {
+        "from": "c-b7224f37",
+        "to": "c-a0244392",
+        "type": "contrasts",
+        "strength": 0.4,
+        "reason": "Balanced Inflation focuses on maintaining economic stability and moderate growth, while Retirement Myth lacks a clear definition, suggesting it could be related to misconceptions or erroneous beliefs about retirement planning or economy in general.",
+        "direction_note": "Understanding Balanced Inflation does not necessarily require understanding Retirement Myth, but both concepts relate to broader economic principles and the public's perception of financial well-being."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-a743a900",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Both 'Investment as a Defense Against Inflation' and 'Medium of Exchange' relate to financial concepts, but they operate in different contexts. Understanding the concept of an investment helps in understanding how assets can be used for various purposes, including inflation protection, while the medium of exchange relates to the practical application of money in transactions.",
+        "direction_note": "Investment as a Defense Against Inflation does not necessarily require understanding 'Medium of Exchange', but both concepts are part of financial literacy."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-0be736de",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding investment as a defense against inflation is related to the concept of credit/crediting because both involve financial strategies aimed at managing money and assets in different contexts, such as protecting purchasing power or financing transactions, respectively.",
+        "direction_note": "Investment as a Defense Against Inflation does not necessarily require understanding Credit/Crediting, but they can be seen as complementary approaches to handling finances."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-62e1aede",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Understanding inflation is essential to grasp how and why investment serves as a defense against its effects, as individuals use various assets to protect their purchasing power in the face of rising prices.",
+        "direction_note": "Understanding Concept B (Inflation) helps in comprehending Concept A (Investment as a Defense Against Inflation)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-83adfe87",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Both 'Investment as a Defense Against Inflation' and 'Liquidity' relate to financial strategies, but they serve different purposes within the broader domain of personal finance and investment management.",
+        "direction_note": "None"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-fecb026e",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Investment as a Defense Against Inflation and Central Bank Reserve share the common goal of managing financial assets to protect purchasing power, although they operate at different levels (individual vs. central) and with distinct objectives.",
+        "direction_note": "Neither concept leads to the other; both are related in their shared purpose of managing financial resources for stability."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-2b4821d6",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding Investment as a Defense Against Inflation is necessary before grasping Government Spending Exceeds Revenue, as it requires an understanding of economic strategies and mechanisms that can be applied to governmental financial operations.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) must be understood before Concept B (Government Spending Exceeds Revenue)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-6440226d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While not directly related in terms of their definitions, both concepts touch upon the broader domain of financial management and risk mitigation strategies. Understanding how investment can act as a defense against inflation provides insights into managing risks, which is also relevant to understanding price elasticity of demand from a macroeconomic perspective.",
+        "direction_note": "Neither concept must be understood before the other; however, they both contribute to an individual's or economy's financial stability and decision-making."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-83821e8e",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding Investment as a Defense Against Inflation is necessary to grasp how and why one might invest in inflation-beating assets, as it provides foundational knowledge on the concept of protecting purchasing power through investment.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) must be understood before comprehending Concept B (Investment in Inflation-Beating Assets)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-2dd9be0f",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Both 'Investment as a Defense Against Inflation' and 'Medium of Exchange' relate to financial concepts, but they operate in different contexts. Understanding one does not necessarily require understanding the other, although both are related to broader economic principles like risk management and asset allocation.",
+        "direction_note": null
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-83813be0",
+        "type": "example_of",
+        "strength": 0.4,
+        "reason": "Understanding how investment can be used as a defense against inflation provides insight into using various financial instruments, including legal tender, which is often used in transactions that are not inflation-protected.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) exemplifies the use of Concept B (Legal Tender)."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-e08b7928",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Investment as a Defense Against Inflation and Credit Account are not directly related concepts, but both fall under the broader domain of financial management. Understanding how to protect purchasing power through investment strategies can provide insights into managing credit accounts effectively, such as understanding interest rates and repayment terms.",
+        "direction_note": "<no directional relationship specified>"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-44e84f48",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding how investment can defend against inflation is a prerequisite for comprehending what inflation is and why it matters, as individuals need to be aware of the concept of inflation in order to make informed decisions about investments that can protect their purchasing power.",
+        "direction_note": "Concept A requires understanding Concept B"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-77926e9d",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "While Concept B, 'Money Creation Process - Physical Notes,' is not provided with a specific definition, it can be inferred that understanding the concept of Investment as a Defense Against Inflation does not necessarily require knowledge about physical money creation processes, but they both relate to financial strategies and economic principles. Understanding Investment as a Defense Against Inflation provides insights into how individuals manage their finances to counteract inflation, which is an important consideration when dealing with any form of currency or asset valuation.",
+        "direction_note": "No directional relationship"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-766122bb",
+        "type": "part_of",
+        "strength": 0.7,
+        "reason": "Investment as a Defense Against Inflation is part of the broader domain of financial strategies and can be seen as a specific application within the money creation process, particularly in relation to digital money. Understanding the mechanics of investment helps in grasping how different assets interact with inflation and monetary systems, including those created through digital means.",
+        "direction_note": "Investment as a Defense Against Inflation leads to understanding Money Creation Process - Digital Money"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-6c5d190e",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Both concepts relate to the broader topic of financial strategies and asset management, particularly in dealing with inflation risk. Understanding investment strategies against inflation can provide insight into how banks manage money circulation and ensure liquidity for customers.",
+        "direction_note": "Understanding either concept enhances knowledge about the other within their shared domain."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-07dc1a65",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Investment as a Defense Against Inflation and the Impact of Increased Money Supply on Inflation both fall under the broader domain of financial economics, specifically focusing on how money supply impacts inflation rates. Understanding these concepts can help individuals better manage their investments to mitigate inflation risks.",
+        "direction_note": "Neither concept requires understanding the other but they are related through the domain of monetary and financial economics."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-57ab2fc1",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Both Investment as a Defense Against Inflation and Saving Cash vs. Investing Long-Term deal with financial strategies to manage money, but they approach it from different angles. Investment as a Defense Against Inflation focuses on asset allocation for value growth in response to inflation, while Saving Cash vs. Investing Long-Term explores the decision between keeping cash or investing over time. Understanding one can provide insights into how financial decisions are made in the face of economic conditions.",
+        "direction_note": "Neither concept leads to the other directly; they operate within the broader domain of personal finance and investment."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-54a91a02",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Both concepts are related to financial strategies and economic thinking, with Concept A focusing on inflation defense through investments and Concept B not having a clear definition but still being within the domain of monetary systems.",
+        "direction_note": "Neither concept leads to the other, as their definitions indicate they operate in different contexts."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-a7ef65e7",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding Concept A about investment as a defense against inflation is crucial before delving into understanding the concept of a government account at a central bank, as investments play a role in protecting savings from inflation and economic instability, which are relevant considerations for managing public funds.",
+        "direction_note": "Concept A leads to Concept B."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-c94e127a",
+        "type": "example_of",
+        "strength": 0.4,
+        "reason": "Investment as a Defense Against Inflation is an example of how credit or crediting can be used effectively. While Concept B's definition is not provided, the concept of investing to counteract inflation inherently involves financial practices that could include credit mechanisms for borrowing at favorable rates or leveraging investments.",
+        "direction_note": "Concept A provides examples and principles related to Concept B."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-97566e50",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding Concept A, which involves investing to defend against inflation, is a prerequisite for comprehending how banks can act as pipelines because investment strategies are often discussed in the context of financial markets and bank services.",
+        "direction_note": "Concept A must be understood before Concept B"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-eef83742",
+        "type": "builds_on",
+        "strength": 0.4,
+        "reason": "Understanding the concept of inflation is foundational to grasping how investment can be used as a defense against inflation, as it provides the context for why and when such investments should be made.",
+        "direction_note": "Investment as a Defense Against Inflation (A) builds on the understanding of Inflation Existence (B), since A extends its principles by providing specific strategies to mitigate the effects of B."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-e9fd5419",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Investment as a Defense Against Inflation and Economic Impact of Inflation on Individuals both fall under the broader domain of financial strategies to protect purchasing power against inflation, making them interconnected through shared principles and mechanisms.",
+        "direction_note": "Understanding one does not strictly require understanding the other, but they are related in their focus on managing and mitigating the effects of inflation."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-8e6b8f82",
+        "type": "example_of",
+        "strength": 0.4,
+        "reason": "Investment as a Defense Against Inflation can be seen as an example of how individuals might use the concept of a Medium of Exchange to their advantage by investing in assets that act as mediums for exchange, such as stocks or bonds, which can maintain or increase value over time.",
+        "direction_note": "Understanding Concept A helps explain Concept B through practical applications and examples."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-fceb1ad9",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding Investment as a Defense Against Inflation is foundational before grasping Legal Tender, as Legal Tender operates within the broader financial and economic context where investment strategies are applied.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) must be understood before Concept B (Legal Tender)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-95d44fe0",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding inflation is crucial before comprehending how investment can be used as a defense against it, as the concept of inflation provides the context necessary to grasp the benefits and mechanisms of investing to combat its effects.",
+        "direction_note": "Understanding A (investment as a defense against inflation) requires understanding B (inflation)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-20abf3a3",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While concept B, 'Liquidity,' is not provided with a definition, both concepts A (Investment as a Defense Against Inflation) and Concept B are related to financial management. Understanding how investments can protect against inflation provides context for the principles of liquidity in managing financial resources effectively.",
+        "direction_note": "No specific directional relationship found between Investment as a Defense Against Inflation and Liquidity."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-16e278ea",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding Investment as a Defense Against Inflation is necessary before comprehending the concept of Banking Pipeline, as Banking Pipeline does not have a clear definition provided and thus cannot be directly applied to concepts related to investments or inflation.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) must precede Concept B (Banking Pipeline)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-ba2adec4",
+        "type": "builds_on",
+        "strength": 0.6,
+        "reason": "Understanding the concept of Investment as a Defense Against Inflation requires an understanding of how prices rise, as this defense mechanism is primarily aimed at protecting purchasing power in an inflationary environment.",
+        "direction_note": "Concept A builds on Concept B"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-8cb9dcc6",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Both concepts deal with financial strategies to protect purchasing power, although they approach it from different angles. Investment as a Defense Against Inflation focuses on asset allocation for inflation protection, while Money Loss is not defined but could be related to risk management and loss prevention in general financial contexts.",
+        "direction_note": "Neither concept leads to the other; both are part of broader financial strategies discussions."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-1f613499",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding inflation is crucial before comprehending how investment can be a defense against it, as one must first grasp what causes inflation to effectively use investment strategies to mitigate its effects.",
+        "direction_note": "Concept B (Inflation) leads to Concept A (Investment as a Defense Against Inflation)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-09fa379d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Investment as a Defense Against Inflation involves understanding how to allocate resources effectively to protect against inflation, which is directly related to managing expenses and ensuring the value of products over time. Although not directly required to understand one another, both concepts are within the broader domain of financial management and asset protection.",
+        "direction_note": "Understanding Investment as a Defense Against Inflation can help in understanding Product Not Getting Expensive by providing insights into effective financial strategies that protect against inflation."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-90273631",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Understanding Investment as a Defense Against Inflation can provide insight into how individuals manage financial resources to maintain purchasing power in response to inflation, which is relevant when considering Real Value Loss since both deal with the preservation and erosion of value over time.",
+        "direction_note": "Investment as a Defense Against Inflation does not directly lead to understanding Real Value Loss, but it can provide context for comprehending how individuals might mitigate real value loss through strategic financial decisions."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-ae900aa4",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "While Concept B is not defined, it can be inferred that Saving Decay might relate to saving behavior and its potential drawbacks or inefficiencies in comparison to the benefits of investing against inflation (Concept A). Understanding how savings can decay over time could provide insights into why some individuals may consider alternative forms of investment as a defense mechanism.",
+        "direction_note": "Understanding Concept A helps with understanding Concept B, but not vice versa."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-6c015a19",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding Concept A about investment as a defense against inflation is necessary to grasp and appreciate Concept B, which lacks a clear definition. Knowledge of how investments mitigate the effects of inflation provides context for why financial illusions might be considered in discussions around finances and economic strategies.",
+        "direction_note": "Concept A must be understood before comprehending Concept B"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-73a4356d",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding Investment as a Defense Against Inflation helps in grasping the necessity of managing financial resources to maintain purchasing power, which can be seen as a core aspect of Portfolio Management Limitation where diversification and risk management are key components.",
+        "direction_note": "Concept A contributes to Concept B by illustrating how investors use various asset classes to protect against inflation, thus providing foundational knowledge for effective portfolio management."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-5cdcfd5a",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Investment as a Defense Against Inflation involves understanding financial assets and their performance over time, which can be seen as an extension of financial education principles, thus making them related in the domain of personal finance.",
+        "direction_note": "Understanding Investment as a Defense Against Inflation can help explain the importance of having some level of financial education to make informed investment decisions."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-4b1b5f61",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding investment as a defense against inflation can provide context to recognize how different types of investments, including those in various industries, might be used to mitigate the effects of inflation. Industry incentives are related because they often influence which sectors are more attractive for investment during periods of economic instability or high inflation.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) leads to Concept B (Industry Incentives)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-c090f376",
+        "type": "example_of",
+        "strength": 0.4,
+        "reason": "Investment as a Defense Against Inflation can be seen as an example of how one might approach retirement planning, focusing on securing purchasing power rather than merely saving for retirement.",
+        "direction_note": "Understanding Investment as a Defense Against Inflation helps illustrate principles that could apply to creating a more comprehensive retirement strategy."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-be2973a8",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "Understanding Investment as a Defense Against Inflation helps in comprehending Money Devaluation because investments are often used to protect against inflation, which is a form of money devaluation. Conversely, understanding the concept of Money Devaluation provides context for why investment strategies might be necessary.",
+        "direction_note": "Both concepts are related within the domain of financial economics and investing."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-971c3f58",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding investment as a defense against inflation is essential before understanding inflation, as it requires explaining how investments work to protect against inflation losses.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) must be understood before Concept B (Inflation)"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-598b8411",
+        "type": "prerequisite",
+        "strength": 0.5,
+        "reason": "Understanding Concept A about investment as a defense against inflation is essential before delving into Concept B, which lacks a clear definition and context. Concept A provides foundational knowledge that helps in comprehending the mechanisms of inflation and how investments can mitigate its effects.",
+        "direction_note": "Concept A leads to Concept B"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-a3e27a0c",
+        "type": "related",
+        "strength": 0.6,
+        "reason": "Understanding investment as a defense against inflation requires knowledge of how to save effectively, as both concepts involve managing and protecting financial resources in uncertain economic environments.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) can lead to understanding Concept B (Saving Effectiveness)."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-8fd0164c",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Investment as a Defense Against Inflation and Financial Illusion both fall under the broader category of financial strategies and decision-making, where understanding one can provide insight into the other by illustrating how individuals might misinterpret or misunderstand their financial options.",
+        "direction_note": "<no directional relationship>"
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-f7b566fa",
+        "type": "related",
+        "strength": 0.4,
+        "reason": "While Concept B is not defined, the concept of investing to protect against inflation can be applied in early career financial management strategies, such as diversifying investments and savings to manage risk during volatile economic times.",
+        "direction_note": "Investment as a Defense Against Inflation (A) relates to Early Career Financial Management (B), as both involve strategic financial planning."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-1ce51cd1",
+        "type": "related",
+        "strength": 0.7,
+        "reason": "Understanding Investment as a Defense Against Inflation can provide foundational insights into how investments contribute to maintaining or growing purchasing power in the face of inflation, which is relevant when considering Investment Compounding.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) relates to Concept B (no definition available)."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-25107a9f",
+        "type": "related",
+        "strength": 0.5,
+        "reason": "Understanding Investment as a Defense Against Inflation can help individuals grasp how financial advice might be structured, such as in situations where financial advisors recommend specific investment strategies to protect against inflation.",
+        "direction_note": "Neither concept leads to the other; they are both related but operate independently within different contexts."
+      },
+      {
+        "from": "c-56629b9c",
+        "to": "c-a0244392",
+        "type": "prerequisite",
+        "strength": 0.4,
+        "reason": "Understanding investment as a defense against inflation is foundational to grasping retirement myths, as both concepts relate to financial planning and decision-making during different life stages.",
+        "direction_note": "Concept A (Investment as a Defense Against Inflation) must be understood before Concept B (Retirement Myth)"
+      }
+    ],
+    "hierarchy": {
+      "roots": [
+        "c-258ef4cb",
+        "c-a45a6ad7",
+        "c-14918b00",
+        "c-6ad70e8b",
+        "c-2f00b25b",
+        "c-5ef05d5c",
+        "c-0d18a416",
+        "c-1dcac9fd",
+        "c-ddd575b1",
+        "c-8f270a76",
+        "c-40a2495b",
+        "c-820d70b0",
+        "c-a14eae55",
+        "c-55eaee88",
+        "c-c1bd5fda",
+        "c-9b3f8379",
+        "c-b7224f37",
+        "c-56629b9c"
+      ],
+      "tree": [
+        {
+          "id": "c-258ef4cb",
+          "depth": 0,
+          "children": [
+            {
+              "id": "c-2b4821d6",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6440226d",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-07dc1a65",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-62e1aede",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-83821e8e",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "c-fecb026e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-2b4821d6",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6440226d",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-c94e127a",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-e9fd5419",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-a743a900",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-fecb026e",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c-62e1aede",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83adfe87",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-fecb026e",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c-fecb026e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83813be0",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-e08b7928",
+                          "depth": 4,
+                          "children": [
+                            {
+                              "id": "c-6c5d190e",
+                              "depth": 5,
+                              "children": [
+                                {
+                                  "id": "c-a743a900",
+                                  "depth": 6,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "c-0be736de",
+                              "depth": 5,
+                              "children": [
+                                {
+                                  "id": "c-fecb026e",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-2b4821d6",
+                                  "depth": 6,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "c-62e1aede",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-2b4821d6",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-83821e8e",
+                              "depth": 5,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "c-766122bb",
+                          "depth": 4,
+                          "children": [
+                            {
+                              "id": "c-a743a900",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-0be736de",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-62e1aede",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-fecb026e",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-2b4821d6",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-6440226d",
+                              "depth": 5,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "c-0be736de",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-fecb026e",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-2b4821d6",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-6440226d",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-83821e8e",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c-44e84f48",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-766122bb",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-07dc1a65",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-fecb026e",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-2b4821d6",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "c-0be736de",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-83813be0",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-44e84f48",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-77926e9d",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-766122bb",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-07dc1a65",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "c-766122bb",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6c5d190e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-07dc1a65",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-16e278ea",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-a743a900",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-0be736de",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-fecb026e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-2b4821d6",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-83813be0",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-77926e9d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-766122bb",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6c5d190e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-c94e127a",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-97566e50",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-a743a900",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-0be736de",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83adfe87",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-fecb026e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83821e8e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-2dd9be0f",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-e08b7928",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-6c5d190e",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-a743a900",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-0be736de",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-2b4821d6",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-6440226d",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c-e08b7928",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-44e84f48",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-766122bb",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-07dc1a65",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "c-eef83742",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-e9fd5419",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-a743a900",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-2b4821d6",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83813be0",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-44e84f48",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-766122bb",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-07dc1a65",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c-5cdcfd5a",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-fecb026e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-83813be0",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-c94e127a",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-97566e50",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-16e278ea",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-971c3f58",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-a3e27a0c",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-8fd0164c",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-f7b566fa",
+                          "depth": 4,
+                          "children": [
+                            {
+                              "id": "c-1ce51cd1",
+                              "depth": 5,
+                              "children": [
+                                {
+                                  "id": "c-0be736de",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-83adfe87",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-fecb026e",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-2b4821d6",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-6440226d",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-83813be0",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-44e84f48",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-77926e9d",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-6c5d190e",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-a7ef65e7",
+                                  "depth": 6,
+                                  "children": [
+                                    {
+                                      "id": "c-0be736de",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-62e1aede",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-2dd9be0f",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-83813be0",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-44e84f48",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-766122bb",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-6c5d190e",
+                                      "depth": 7,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "c-c94e127a",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-eef83742",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-ae900aa4",
+                                  "depth": 6,
+                                  "children": [
+                                    {
+                                      "id": "c-62e1aede",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-83813be0",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-44e84f48",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-95d44fe0",
+                                      "depth": 7,
+                                      "children": [
+                                        {
+                                          "id": "c-0be736de",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-62e1aede",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-e9fd5419",
+                                          "depth": 8,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "c-6c015a19",
+                                  "depth": 6,
+                                  "children": [
+                                    {
+                                      "id": "c-73a4356d",
+                                      "depth": 7,
+                                      "children": [
+                                        {
+                                          "id": "c-83adfe87",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-2b4821d6",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-6440226d",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-97566e50",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-eef83742",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-fceb1ad9",
+                                          "depth": 8,
+                                          "children": [
+                                            {
+                                              "id": "c-83821e8e",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-2dd9be0f",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-83813be0",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-44e84f48",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-77926e9d",
+                                              "depth": 9,
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "c-95d44fe0",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-16e278ea",
+                                          "depth": 8,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "c-5cdcfd5a",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-c090f376",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-62e1aede",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-44e84f48",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-77926e9d",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-07dc1a65",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-54a91a02",
+                                      "depth": 7,
+                                      "children": [
+                                        {
+                                          "id": "c-a743a900",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-83adfe87",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-fecb026e",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-2dd9be0f",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-83813be0",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-e08b7928",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-44e84f48",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-77926e9d",
+                                          "depth": 8,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "c-97566e50",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-8e6b8f82",
+                                      "depth": 7,
+                                      "children": [
+                                        {
+                                          "id": "c-a743a900",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-0be736de",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-62e1aede",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-2b4821d6",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-6440226d",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-766122bb",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-6c5d190e",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-54a91a02",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-c94e127a",
+                                          "depth": 8,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "c-fceb1ad9",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-95d44fe0",
+                                      "depth": 7,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "c-4b1b5f61",
+                                  "depth": 6,
+                                  "children": [
+                                    {
+                                      "id": "c-0be736de",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-fecb026e",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-2dd9be0f",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-54a91a02",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-c94e127a",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-e9fd5419",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-8e6b8f82",
+                                      "depth": 7,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "c-981003de",
+                              "depth": 5,
+                              "children": [
+                                {
+                                  "id": "c-62e1aede",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-6440226d",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-83821e8e",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-83813be0",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-44e84f48",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-07dc1a65",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-e9fd5419",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-95d44fe0",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-16e278ea",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-1f613499",
+                                  "depth": 6,
+                                  "children": [
+                                    {
+                                      "id": "c-90273631",
+                                      "depth": 7,
+                                      "children": [
+                                        {
+                                          "id": "c-ae900aa4",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-62e1aede",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-83821e8e",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-2dd9be0f",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-83813be0",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-44e84f48",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-766122bb",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-57ab2fc1",
+                                          "depth": 8,
+                                          "children": [
+                                            {
+                                              "id": "c-a743a900",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-62e1aede",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-6440226d",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-83821e8e",
+                                              "depth": 9,
+                                              "children": []
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "id": "c-a7ef65e7",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-eef83742",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-e9fd5419",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-95d44fe0",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-16e278ea",
+                                          "depth": 8,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "c-ba2adec4",
+                                          "depth": 8,
+                                          "children": [
+                                            {
+                                              "id": "c-a743a900",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-62e1aede",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-fecb026e",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-2b4821d6",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-83813be0",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-44e84f48",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-6c5d190e",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-a7ef65e7",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-c94e127a",
+                                              "depth": 9,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "c-e9fd5419",
+                                              "depth": 9,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "c-73a4356d",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-c090f376",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-2b4821d6",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-6440226d",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-83813be0",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-77926e9d",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-c94e127a",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-eef83742",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-e9fd5419",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-ba2adec4",
+                                      "depth": 7,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "c-09fa379d",
+                                  "depth": 6,
+                                  "children": [
+                                    {
+                                      "id": "c-0be736de",
+                                      "depth": 7,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "c-44e84f48",
+                                      "depth": 7,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "c-73a4356d",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-5cdcfd5a",
+                                  "depth": 6,
+                                  "children": []
+                                },
+                                {
+                                  "id": "c-c090f376",
+                                  "depth": 6,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "c-a743a900",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-62e1aede",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-83adfe87",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-2b4821d6",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-83821e8e",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-2dd9be0f",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-83813be0",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-44e84f48",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-766122bb",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-6c5d190e",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-57ab2fc1",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-54a91a02",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-a7ef65e7",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-e9fd5419",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-8e6b8f82",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-95d44fe0",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-ba2adec4",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-ae900aa4",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-c090f376",
+                              "depth": 5,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "c-1ce51cd1",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-981003de",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-0be736de",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-62e1aede",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-fecb026e",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-2b4821d6",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-e08b7928",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-766122bb",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-6c5d190e",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-54a91a02",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-8cb9dcc6",
+                          "depth": 4,
+                          "children": [
+                            {
+                              "id": "c-1f613499",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-90273631",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-62e1aede",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-83821e8e",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-44e84f48",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-a7ef65e7",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-97566e50",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-eef83742",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-e9fd5419",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-8e6b8f82",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-95d44fe0",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-16e278ea",
+                              "depth": 5,
+                              "children": []
+                            },
+                            {
+                              "id": "c-ba2adec4",
+                              "depth": 5,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "c-6c015a19",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-4b1b5f61",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c-f7b566fa",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-a0244392",
+                      "depth": 3,
+                      "children": [
+                        {
+                          "id": "c-6c5d190e",
+                          "depth": 4,
+                          "children": []
+                        },
+                        {
+                          "id": "c-6c015a19",
+                          "depth": 4,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "c-981003de",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-62e1aede",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-fecb026e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83821e8e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-2dd9be0f",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83813be0",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-44e84f48",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-77926e9d",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-57ab2fc1",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-a7ef65e7",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-eef83742",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-fceb1ad9",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-95d44fe0",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-8cb9dcc6",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-1f613499",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-ae900aa4",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-4b1b5f61",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "c-8fd0164c",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-981003de",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-62e1aede",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-fecb026e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-44e84f48",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-77926e9d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-766122bb",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-07dc1a65",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-57ab2fc1",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-a7ef65e7",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-c94e127a",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-e9fd5419",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-fceb1ad9",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-8cb9dcc6",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-1f613499",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-ae900aa4",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-8fd0164c",
+              "depth": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "c-a45a6ad7",
+          "depth": 0,
+          "children": [
+            {
+              "id": "c-0be736de",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-62e1aede",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-2b4821d6",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6440226d",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-44e84f48",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6c5d190e",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-07dc1a65",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-a7ef65e7",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-8e6b8f82",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-fceb1ad9",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-95d44fe0",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-1f613499",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6c015a19",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-5cdcfd5a",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-be2973a8",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-971c3f58",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-8fd0164c",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-981003de",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-62e1aede",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-fecb026e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-2b4821d6",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-44e84f48",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-77926e9d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-766122bb",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6c5d190e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-07dc1a65",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-c94e127a",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-eef83742",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-fceb1ad9",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-95d44fe0",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-20abf3a3",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-0be736de",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-fecb026e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-2b4821d6",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-83813be0",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-44e84f48",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-c94e127a",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-97566e50",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-e9fd5419",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "c-ba2adec4",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-1f613499",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-971c3f58",
+              "depth": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "c-14918b00",
+          "depth": 0,
+          "children": [
+            {
+              "id": "c-21cddb2e",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-e090f73a",
+                  "depth": 2,
+                  "children": [
+                    {
+                      "id": "c-fecb026e",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-77926e9d",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-54a91a02",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-a7ef65e7",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-c94e127a",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-8e6b8f82",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-20abf3a3",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-09fa379d",
+                      "depth": 3,
+                      "children": []
+                    },
+                    {
+                      "id": "c-8fd0164c",
+                      "depth": 3,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "c-62e1aede",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6440226d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-83821e8e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-77926e9d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6c5d190e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-07dc1a65",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-97566e50",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-09fa379d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-5cdcfd5a",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-0be736de",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-62e1aede",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-fecb026e",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-83821e8e",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-83813be0",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-e08b7928",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-57ab2fc1",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-97566e50",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-95d44fe0",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-ae900aa4",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-73a4356d",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-be2973a8",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-f7b566fa",
+              "depth": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "c-6ad70e8b",
+          "depth": 0,
+          "children": [
+            {
+              "id": "c-3f677cb7",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-83813be0",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-44e84f48",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-1f613499",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-be2973a8",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-971c3f58",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-a743a900",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-0be736de",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-62e1aede",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-2b4821d6",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6440226d",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-e08b7928",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-44e84f48",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-07dc1a65",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-a7ef65e7",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-c94e127a",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-e9fd5419",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-95d44fe0",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-16e278ea",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-8cb9dcc6",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-5cdcfd5a",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-598b8411",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-16e278ea",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6c015a19",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-5cdcfd5a",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-4b1b5f61",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-8fd0164c",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-f7b566fa",
+              "depth": 1,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "c-2f00b25b",
+          "depth": 0,
+          "children": [
+            {
+              "id": "c-4ee9a2b0",
+              "depth": 1,
+              "children": [
+                {
+                  "id": "c-0be736de",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-62e1aede",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-83adfe87",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-2b4821d6",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-e08b7928",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-77926e9d",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-6c5d190e",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-07dc1a65",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-54a91a02",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-c94e127a",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-eef83742",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-fceb1ad9",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-20abf3a3",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-1f613499",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-90273631",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-be2973a8",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-598b8411",
+                  "depth": 2,
+                  "children": []
+                },
+                {
+                  "id": "c-f7b566fa",
+                  "depth": 2,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "c-a743a900",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-0be736de",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-62e1aede",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-83adfe87",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-fecb026e",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-2dd9be0f",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-83813be0",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-44e84f48",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-77926e9d",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-766122bb",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6c5d190e",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-54a91a02",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-a7ef65e7",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-e9fd5419",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-8e6b8f82",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-fceb1ad9",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-95d44fe0",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-16e278ea",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-ba2adec4",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-1f613499",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-6c015a19",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-73a4356d",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-5cdcfd5a",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-c090f376",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-be2973a8",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-971c3f58",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-598b8411",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-8fd0164c",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-f7b566fa",
+              "depth": 1,
+              "children": []
+            },
+            {
+              "id": "c-1ce51cd1",
+              "depth": 1,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "global_map": {
+    "total_nodes": 76,
+    "total_edges": 2469,
+    "documents_processed": [
+      "2_What_Is_Money",
+      "1_Why_Financial_Literacy_Is_Required"
+    ]
+  },
+  "visualization": "pipeline_output\\2_What_Is_Money\\concept_map.html",
+  "global_visualization": "pipeline_output\\global_concept_map\\concept_map.html",
+  "node_count": 3,
+  "edge_count": 147
+}

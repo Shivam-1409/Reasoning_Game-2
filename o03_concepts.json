@@ -1,0 +1,72 @@
+{
+  "document_name": "2_What_Is_Money",
+  "concepts": [
+    {
+      "concept_id": "c-43ab6fd0",
+      "name": "Medium of Exchange",
+      "brief_description": "A medium used to exchange goods and services instead of conflict or barter.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-169f4ca4",
+      "name": "Government Account at Central Bank",
+      "brief_description": "An account where the government holds funds that exist at the central bank.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-0b7ab819",
+      "name": "Credit/Crediting",
+      "brief_description": "The process of adding money to an account, similar to depositing cash or transferring funds, often referred to as 'credit' in financial contexts.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-1f4e51d0",
+      "name": "Physical Notes",
+      "brief_description": "Money created by physical printing on paper bills by the central bank.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-bf1dc22e",
+      "name": "Banks as Pipelines",
+      "brief_description": "Banks act as intermediaries where people deposit money and banks lend out a portion of it, which is then redeposited by borrowers, creating an ongoing circulation mechanism.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-9b3f8379",
+      "name": "Inflation",
+      "brief_description": "The loss of value in currency over time due to an increase in supply relative to the demand for goods and services.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-b7224f37",
+      "name": "Balanced Inflation",
+      "brief_description": "A moderate level of inflation that keeps the economy moving smoothly, preventing deflation or hyperinflation.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    },
+    {
+      "concept_id": "c-56629b9c",
+      "name": "Investment as a Defense against Inflation",
+      "brief_description": "The strategy of investing long-term money into assets that can beat inflation to protect purchasing power and ensure growth over time. This may include buying real estate, stocks, bonds, etc., rather than keeping cash in savings accounts or low-interest investment options like fixed deposits or mutual funds.",
+      "source_chunk": "chunk_000",
+      "is_duplicate": false,
+      "duplicate_of": ""
+    }
+  ],
+  "duplicates_skipped": 2,
+  "total_extracted": 10,
+  "unique_count": 8
+}
