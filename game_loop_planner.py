@@ -11,9 +11,7 @@ from llm_helper import LLMHelper
 
 class GameStep(TypedDict):
     step_no: int
-    concept_classified_into: str
-    ui_type: str
-    questions: List[Dict[str, Any]]
+    questions: List[Dict[str, str]]
 
 
 class GameLoopPlan(TypedDict):
@@ -23,36 +21,10 @@ class GameLoopPlan(TypedDict):
 
 class GameLoopPlanner:
     """
-    LLM-driven 4-step learning sequence generator.
-    Uses Probe_Planner bundle as context and enforces strict classification + UI rules.
+    Two-step LLM planner:
+    1) Extract structured reasoning JSON
+    2) Generate 4-step question blueprints JSON
     """
-
-    STAGES = [
-        {
-            "step_no": 1,
-            "stage": "activation",
-            "objective": "Warm up and activate prior understanding with low friction.",
-            "difficulty": "easy",
-        },
-        {
-            "step_no": 2,
-            "stage": "core_law_challenge",
-            "objective": "Check whether the learner can apply the governing law.",
-            "difficulty": "medium",
-        },
-        {
-            "step_no": 3,
-            "stage": "misconception_trigger",
-            "objective": "Expose incorrect reasoning by presenting a tempting wrong idea.",
-            "difficulty": "medium",
-        },
-        {
-            "step_no": 4,
-            "stage": "transfer_test",
-            "objective": "Test transfer by applying the same idea in a nearby context.",
-            "difficulty": "hard",
-        },
-    ]
 
     def __init__(
         self,
@@ -83,86 +55,98 @@ class GameLoopPlanner:
 
         raise ValueError("LLM output did not contain valid JSON object.")
 
-    def _build_prompt(self, concept_bundle: Dict[str, Any]) -> str:
+    def _prompt_reasoning(self, concept_bundle: Dict[str, Any]) -> str:
+        schema = {
+            "concept_name": "string",
+            "CORE_LAWS": ["max 3"],
+            "FAILURE_SCENARIOS": ["3-5 real-world break cases"],
+            "MISCONCEPTION_TRAPS": ["3 decision-framed wrong beliefs"],
+            "CAUSAL_CHAINS": [["cause -> effect steps"]],
+            "ANALOGY": "single simple analogy",
+        }
+        return (
+            "Extract structured reasoning components.\n\n"
+            "Return ONLY the following sections as JSON with exact keys:\n"
+            "1. CORE_LAWS (max 3)\n"
+            "2. FAILURE_SCENARIOS (3–5 real-world situations where concept breaks)\n"
+            "3. MISCONCEPTION_TRAPS (3 common wrong beliefs framed as decisions)\n"
+            "4. CAUSAL_CHAINS (step-by-step cause → effect flows)\n"
+            "5. ANALOGY (1 simple analogy)\n\n"
+            "Be concise. No explanations.\n\n"
+            f"Concept bundle:\n{json.dumps(concept_bundle, indent=2)}\n\n"
+            f"Output JSON schema (exact):\n{json.dumps(schema, indent=2)}"
+        )
+
+    def _prompt_questions(self, reasoning_json: Dict[str, Any]) -> str:
         schema = {
             "concept_name": "string",
             "steps": [
                 {
-                    "step_no": "1..4",
-                    "concept_classified_into": (
-                        "Cause-effect | Missing reasoning steps | Assumption testing | Classification"
-                    ),
-                    "ui_type": "link_drag | sequencing | fill_in | multiple_choice | grouping | card_sort",
+                    "step_no": 1,
                     "questions": [
                         {
-                            "prompt": "string",
-                            "ui_type": "must match step ui_type",
-                            "options": "for multiple_choice (list of 3-5)",
-                            "template": "for fill_in (sentence with ___ blanks)",
-                            "blanks": "for fill_in (list of 1-3 correct fills)",
-                            "steps": "for sequencing (list)",
-                            "left": "for link_drag (list)",
-                            "right": "for link_drag (list)",
-                            "items": "for grouping/card_sort (list)",
-                            "group_labels": "for grouping/card_sort (list of 2 labels)",
-                            "answer": "optional answer key",
+                            "question": "high-reasoning question",
+                            "answer": "short correct answer",
                         }
                     ],
                 }
             ],
         }
-
         return (
-            "You generate a 4-step learning sequence. Only output JSON. No prose.\n\n"
-            "Fixed stage info (do NOT return in output):\n"
-            "1) Stage 1: activation\n"
-            "   Objective: Warm up and activate prior understanding with low friction.\n"
-            "   Difficulty: easy\n"
-            "2) Stage 2: core_law_challenge\n"
-            "   Objective: Check whether the learner can apply the governing law.\n"
-            "   Difficulty: medium\n"
-            "3) Stage 3: misconception_trigger\n"
-            "   Objective: Expose incorrect reasoning by presenting a tempting wrong idea.\n"
-            "   Difficulty: medium\n"
-            "4) Stage 4: transfer_test\n"
-            "   Objective: Test transfer by applying the same idea in a nearby context.\n"
-            "   Difficulty: hard\n\n"
-            "Allowed classifications and UI type mapping:\n"
-            '- "Cause-effect" => "link_drag" OR "sequencing"\n'
-            '- "Missing reasoning steps" => "fill_in"\n'
-            '- "Assumption testing" => "multiple_choice"\n'
-            '- "Classification" => "grouping" OR "card_sort"\n'
-            "No other values allowed.\n\n"
-            "Use the concept bundle below to create logical, real-world questions (not theoretical).\n"
-            "Each step should have 2 to 3 questions.\n"
-            "Questions must be structured objects (not plain strings) and must match ui_type.\n"
-            "Include options for multiple_choice, blanks for fill_in, steps for sequencing,\n"
-            "left/right for link_drag, and items + group_labels for grouping/card_sort.\n"
-            "For fill_in, include a full 'template' sentence with ___ placeholders\n"
-            "and provide 'blanks' as the correct fill(s).\n"
-            "If grouping/card_sort, group_labels must be two human-readable categories.\n\n"
-            f"Concept bundle:\n{json.dumps(concept_bundle, indent=2)}\n\n"
-            f"Output schema:\n{json.dumps(schema, indent=2)}"
+            "Create 4-step questions from the reasoning JSON below.\n"
+            "Return ONLY JSON. No extra text.\n\n"
+            "Rules:\n"
+            "- Create EXACTLY 4 steps.\n"
+            "- Each step_no must map to:\n"
+            "  1 -> activation\n"
+            "  2 -> core_law_challenge\n"
+            "  3 -> misconception_trigger\n"
+            "  4 -> transfer_test\n\n"
+            "Stage context (guidance only):\n"
+            "1) activation — easy — Warm up and activate prior understanding.\n"
+            "2) core_law_challenge — medium — Apply the governing law in a scenario.\n"
+            "3) misconception_trigger — medium — Expose a tempting wrong idea.\n"
+            "4) transfer_test — hard — Apply the idea in a new context.\n\n"
+            "- Each step MUST:\n"
+            "  - include 2 to 3 high-reasoning questions\n"
+            "  - use a DIFFERENT scenario across steps\n"
+            "  - target a DIFFERENT law or misconception across steps\n"
+            "  - include a REAL decision-making situation (not definitions)\n"
+            "  - include a psychologically plausible trap (not obvious)\n"
+            "  - provide a short, correct answer for each question\n\n"
+            f"Reasoning JSON:\n{json.dumps(reasoning_json, indent=2)}\n\n"
+            f"Output JSON schema (exact):\n{json.dumps(schema, indent=2)}"
         )
 
     def build_game_loop(self, concept_id: str, force_refresh: bool = False) -> GameLoopPlan:
         concept_bundle = self.probe_planner.bundle(concept_id)
-        prompt = self._build_prompt(concept_bundle)
-
-        raw = self.llm_helper.invoke_for_concept(
+        prompt_1 = self._prompt_reasoning(concept_bundle)
+        raw_1 = self.llm_helper.invoke_for_concept(
             concept_id=concept_id,
-            namespace="game_loop_v2",
-            prompt=prompt,
+            namespace="reasoning_v1",
+            prompt=prompt_1,
             force_refresh=force_refresh,
         )
-        parsed = self._extract_json_block(raw)
+        reasoning = self._extract_json_block(raw_1)
 
-        if not isinstance(parsed, dict) or "steps" not in parsed:
-            raise ValueError("LLM output missing required 'steps' field.")
+        if not isinstance(reasoning, dict) or "CORE_LAWS" not in reasoning:
+            raise ValueError("Reasoning output missing required fields.")
+
+        prompt_2 = self._prompt_questions(reasoning)
+        raw_2 = self.llm_helper.invoke_for_concept(
+            concept_id=concept_id,
+            namespace="questions_v1",
+            prompt=prompt_2,
+            force_refresh=force_refresh,
+        )
+        steps = self._extract_json_block(raw_2)
+
+        if not isinstance(steps, dict) or "steps" not in steps:
+            raise ValueError("Question output missing required 'steps' field.")
 
         return GameLoopPlan(
-            concept_name=parsed.get("concept_name", concept_bundle.get("concept_name", "")),
-            steps=parsed.get("steps", []),
+            concept_name=steps.get("concept_name", concept_bundle.get("concept_name", "")),
+            steps=steps.get("steps", []),
         )
 
 
@@ -187,4 +171,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+   main()
